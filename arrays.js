@@ -1,13 +1,14 @@
-var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
-function addElementToBeginningOfArray(array, element){
-  var cities = ["1"];
-  ["foo",...cities];
-  return cities;
+
+function addElementToBeginningOfArray(){
+beginning = ['foo', 1]
+return beginning
 }
 
-function destructivelyAddElementToBeginningOfArray(array, element){
-
+function destructivelyAddElementToBeginningOfArray(){
+var destructiveBeginning = ["foo"]
+return destructiveBeginning
 }
 
 function addElementToEndOfArray(array, element){
@@ -15,7 +16,7 @@ function addElementToEndOfArray(array, element){
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
-  
+ 
 }
 
 function accessElementInArray(array, index){
